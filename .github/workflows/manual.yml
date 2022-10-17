@@ -25,7 +25,6 @@ jobs:
         os: [ubuntu-latest, macos-latest]
     # Steps represent a sequence of tasks that will be executed as part of the job
     runs-on: ${{matrix.os}}
-
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
